@@ -1,0 +1,14 @@
+.interface {
+    background-color: rgb(241, 228, 223);
+    width: 100%;
+}
+
+.cabecalho {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 2rem;
+    font-family: 'OriginalSurfer','Regular', sans-serif;
+}
