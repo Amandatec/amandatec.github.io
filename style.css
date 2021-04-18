@@ -1,14 +1,68 @@
-.interface {
-    background-color: rgb(241, 228, 223);
-    width: 100%;
+header {
+    background-color: palevioletred;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -3rem;
+   
+}
+
+.logo {
+    margin-left: 1.5rem;
+
+}
+
+body { 
+    background-color: rgb(199, 177, 184);
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 1.5rem;
+
 }
 
 .cabecalho {
-    background-color: lightgray;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2rem;
 }
 
-.cabecalho h1 {
-    font-size: 2rem;
-    font-family: 'OriginalSurfer','Regular', sans-serif;
+.item-menu {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img {
+    width: 20%;
+    margin-left: auto;
+}
+
+aside#lateral {
+    display: block;
+    float: right;
+    width: 50rem;
+    
+}
+
+footer {
+    background-color: palevioletred;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 0 auto;
+    font-size: 1rem;
+    
 }
