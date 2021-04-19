@@ -8,7 +8,8 @@ header {
 }
 
 .logo {
-    margin-left: 1.5rem;
+    margin-left: 3rem;
+    box-shadow: 2px 2px 2px 2px rgba(107, 78, 105, 0.5);
 
 }
 
@@ -36,24 +37,42 @@ body {
     color: white;
 }
 
+.item-menu:hover {
+    background-color: gray;
+    transition: 1s;
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+}
+
 .item-menu a {
     text-decoration: none;
     color: white;
     display: flex;
     flex-wrap: wrap;
-    
+    font-size: 1.5rem;
+    font-family: cursive; 
+}
+
+.item-menu:hover a {
+    color: hotpink;
 }
 
 img {
     width: 20%;
-    margin-left: auto;
+    margin: 2rem auto;
+    margin-top: 10px;
 }
 
 aside#lateral {
     display: block;
     float: right;
+    max-width: 100%;
     width: 50rem;
-    
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin:6rem auto;
+    padding-left: 10px;
+    padding-right: 35px;
 }
 
 footer {
