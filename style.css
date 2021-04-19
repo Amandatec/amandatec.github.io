@@ -37,14 +37,24 @@ body {
     color: white;
 }
 
+.item-menu:hover {
+    background-color: gray;
+    transition: 1s;
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+}
+
 .item-menu a {
     text-decoration: none;
     color: white;
     display: flex;
     flex-wrap: wrap;
     font-size: 1.5rem;
-    font-family: cursive;
-    
+    font-family: cursive; 
+}
+
+.item-menu:hover a {
+    color: hotpink;
 }
 
 img {
@@ -56,8 +66,9 @@ img {
 aside#lateral {
     display: block;
     float: right;
+    max-width: 100%;
     width: 50rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: cursive;
     margin:6rem auto;
     padding-left: 10px;
