@@ -4,6 +4,8 @@ header {
     border-radius: 1rem;
     text-align: center;
     font-size: 2rem;
+    font-family: cursive;
+    font-weight: bolder;
     margin-top: -0.5rem;
     color: lightgray;
 }
@@ -114,7 +116,7 @@ input[type=text], select {
   }
 
  footer img {
-    width: 5rem;
+    width: 4rem;
     margin-right: 0rem;
     margin-left: -2rem;
     padding: 2rem;
