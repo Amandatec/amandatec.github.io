@@ -1,28 +1,23 @@
 header {
     background-color: palevioletred;
-    border-radius: 2rem;
+    border-radius: 1rem;
     text-align: center;
     font-size: 2rem;
     margin-top: -3rem;
-   
+    color: lightgray;
 }
 
 .logo {
-    margin-left: 3rem;
-    box-shadow: 2px 2px 2px 2px rgba(107, 78, 105, 0.5);
-
+    margin-left: 4rem;
+ 
+    color: palevioletred;
+    font-size: 2rem;
 }
-
-body { 
-    background-color: rgb(199, 177, 184);
-}
-
 .menu {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     margin-right: 1.5rem;
-
 }
 
 .cabecalho {
@@ -34,7 +29,8 @@ body {
 .item-menu {
     list-style: none;
     text-decoration: none;
-    color: white;
+    color:  palevioletred;
+    font-weight: bold;
 }
 
 .item-menu:hover {
@@ -46,7 +42,7 @@ body {
 
 .item-menu a {
     text-decoration: none;
-    color: white;
+    color: palevioletred;
     display: flex;
     flex-wrap: wrap;
     font-size: 1.5rem;
@@ -66,13 +62,20 @@ img {
 aside#lateral {
     display: block;
     float: right;
-    max-width: 100%;
     width: 50rem;
     font-size: 1.5rem;
     font-family: cursive;
     margin:6rem auto;
     padding-left: 10px;
     padding-right: 35px;
+    color: gray;
+}
+
+aside#lateral img {
+    border-radius: 50rem;
+    display: block;
+    float: right;
+    margin-right: 10rem;
 }
 
 footer {
@@ -82,6 +85,7 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 0 auto;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: lightgray;
     
 }
