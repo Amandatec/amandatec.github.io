@@ -7,12 +7,16 @@ header {
     color: lightgray;
 }
 
+body {
+    background-color: black;
+}
+
 .logo {
     margin-left: 4rem;
- 
     color: palevioletred;
     font-size: 2rem;
 }
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -55,8 +59,9 @@ header {
 
 img {
     width: 20%;
-    margin: 2rem auto;
-    margin-top: 10px;
+   
+    margin-top: 1rem;
+    margin-left: 5rem;
 }
 
 aside#lateral {
@@ -74,18 +79,30 @@ aside#lateral {
 aside#lateral img {
     border-radius: 50rem;
     display: block;
-    float: right;
+    float: left;
     margin-right: 10rem;
 }
 
 footer {
-    background-color: palevioletred;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    text-align: center;
-    margin-top: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     font-size: 1.5rem;
-    color: lightgray;
+    font-weight: bolder;
+    color: gray;
+    margin-top: 0;
     
+}
+
+footer img {
+  width: 4rem;
+  margin-right: 0rem;
+  margin-left: -2rem;
+  padding: 2rem;
+}
+
+footer a {
+   text-decoration: none;
+   color:palevioletred;
 }
