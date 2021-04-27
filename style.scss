@@ -1,0 +1,115 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+}
+
+.interface {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2rem;
+
+    header {
+        background-color: palevioletred;
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: -3rem;
+        color: lightgray;
+    }
+
+
+    .cabecalho{
+        .logo {
+            margin-left: 4rem;
+            color: palevioletred;
+            font-size: 2rem;
+        }
+        
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            margin-right: 1.5rem;
+        
+            .item-menu {
+                list-style: none;
+                text-decoration: none;
+                color:  palevioletred;
+                font-weight: bold;
+        
+                &:hover {
+                    background-color: gray;
+                    transition: 1s;
+                    margin: 0.5rem;
+                    padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+                }
+                        
+                a {
+                    text-decoration: none;
+                    color: palevioletred;
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 1.5rem;
+                    font-family: cursive; 
+        
+                    &:hover a {
+                        color: hotpink;
+                    }
+                } 
+            } 
+        }
+    }           
+}
+
+img {
+    width: 20%;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+aside#lateral {
+    display: block;
+    float: right;
+    width: 50rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin:6rem auto;
+    padding-left: 10px;
+    padding-right: 35px;
+    color: gray;
+
+     img {
+        border-radius: 50rem;
+        display: block;
+        float: left;
+        margin-right: 10rem;
+    }
+    
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: gray;
+    margin-top: 0;
+
+    img {
+        width: 4rem;
+        margin-right: 0rem;
+        margin-left: -2rem;
+        padding: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color:palevioletred;
+    }
+}
