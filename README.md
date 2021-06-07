@@ -1,6 +1,11 @@
-# meu-portifolio-aula8
-Trabalho desenvolvido para a prática de html e css no curso do Estartando Devs. 
-
-Tecnologia utilizadas: HTML5 e CSS3.
-
-""Projeto ainda em desenvolvimento""
+<center>
+    <table align="center">
+      <tr>
+          <td>
+              <img width="440px" align="center" src="https://github-readme-stats.vercel.app/api?username=amandatec&count_private=true&hide_border=true" />
+          </td>
+          <td>
+              <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amandatect&layout=compact&hide_border=true" alt="amandatec" />                   </td>
+      </tr>  
+    </table>
+</center>
